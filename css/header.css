@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 32px;
+}
+
+h1 {
+    font-family: var(--fonte-padrao);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--primaria);
+}
+
+.header__empresa {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__logo {
+    width: 27px;
+    height: 27px;;
+}
+
+.header__nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header__nav-links {
+    font-family: var(--fonte-padrao);
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--cinza-500);
+}
+
+.header__botoes {
+    display: flex;
+    gap: 16px ;
+}

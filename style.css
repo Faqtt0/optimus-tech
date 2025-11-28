@@ -1,0 +1,35 @@
+@import "./css/header.css";
+
+
+:root{
+    --branco: #FFF;
+    --primaria: #3A404E;
+    --cinza-500: #667085;
+    --cinza-900: #101828;
+    --vermelho: #8E2424;
+    --fonte-padrao: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--branco);
+}
+
+.btn {
+    font-family: var(--fonte-padrao);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 18px;
+}
+
+.btn-fill {
+    background: var(--vermelho);
+    color: var(--branco);
+    border-radius: 8px;
+    border: 1px solid var(--vermelho);
+}
+
+.btn-nofill {
+    background: transparent;
+    color: var(--cinza-500);
+    border: 0px;
+}
