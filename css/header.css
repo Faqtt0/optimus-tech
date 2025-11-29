@@ -1,42 +1,31 @@
 header {
+    padding: 96px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 32px 32px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 24px;
 }
 
-h1 {
+.header__titulo {
     font-family: var(--fonte-padrao);
-    font-weight: 500;
-    font-size: 18px;
-    color: var(--primaria);
-}
-
-.header__empresa {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.header__logo {
-    width: 27px;
-    height: 27px;;
-}
-
-.header__nav {
-    display: flex;
-    gap: 40px;
-}
-
-.header__nav-links {
-    font-family: var(--fonte-padrao);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
-    text-decoration: none;
-    color: var(--cinza-500);
+    color: var(--vermelho);
 }
 
-.header__botoes {
-    display: flex;
-    gap: 16px ;
+.header__quest {
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--cinza-900);
+}
+
+.header__info {
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-500);
+    width: 792px;
 }
