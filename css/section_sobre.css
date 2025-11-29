@@ -1,0 +1,35 @@
+.section-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 64px;
+    padding: 0 32px 94px;
+}
+
+.section-sobre__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+}
+
+.section-sobre__number {
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--vermelho);
+}
+
+.section-sobre__titulo {
+    font-family: var(--fonte-padrao);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cinza-900);
+}
+
+.section-sobre__descricao {
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-500);
+}
