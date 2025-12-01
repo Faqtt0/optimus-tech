@@ -1,0 +1,46 @@
+.talentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 96px 96px;
+    gap: 64px;
+}
+
+.talentos__conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.talentos__vagas {
+    font-family: var(--fonte-padrao);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--vermelho);
+    background-color: rgba(var(--vermelho-rgb), 0.05);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.talentos__titulo {
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--cinza-900);
+}
+
+.talentos__info {
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-500);
+}
+
+.talentos__img {
+    max-width: 100%;
+    height: auto;
+
+}

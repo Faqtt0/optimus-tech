@@ -1,6 +1,7 @@
 @import "css/navigation.css";
 @import "css/header.css";
 @import "css/section_sobre.css";
+@import "css/talentos.css";
 
 
 :root{
@@ -9,6 +10,7 @@
     --cinza-500: #667085;
     --cinza-900: #101828;
     --vermelho: #8E2424;
+    --vermelho-rgb: 142, 36, 36;
     --fonte-padrao: 'Inter', sans-serif;
 }
 
