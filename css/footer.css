@@ -1,0 +1,38 @@
+footer {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-50);
+    text-align: center;
+    padding: 4rem 4rem;
+    gap: 32px;
+}
+
+footer h2 {
+    font-family: var(--fonte-padrao);
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--cinza-900);
+}
+
+footer span:nth-child(2) {
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-500);
+}
+
+.cadastrar-email input {
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+footer span {
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-500);
+}
