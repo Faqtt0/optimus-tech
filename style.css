@@ -2,11 +2,13 @@
 @import "css/header.css";
 @import "css/section_sobre.css";
 @import "css/talentos.css";
+@import "css/vagas.css";
 
 
 :root{
     --branco: #FFF;
     --primaria: #3A404E;
+    --cinza-200: #EAECF0;
     --cinza-500: #667085;
     --cinza-900: #101828;
     --vermelho: #8E2424;
