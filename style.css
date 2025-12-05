@@ -4,11 +4,13 @@
 @import "css/talentos.css";
 @import "css/vagas.css";
 @import "css/depoimentos.css";
+@import "css/footer.css";
 
 
 :root{
     --branco: #FFF;
     --primaria: #3A404E;
+    --cinza-50: #F9FAFB;
     --cinza-200: #EAECF0;
     --cinza-500: #667085;
     --cinza-900: #101828;
